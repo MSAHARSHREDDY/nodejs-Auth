@@ -1,0 +1,33 @@
+body
+{
+    background:linear-gradient(to bottom right,#90EE90,#87CEFA);
+    height:100vh;
+}
+h5
+{
+    font-weight: bold;
+}
+
+
+.input
+{
+    width: 75%;
+    padding: 1%;
+    border: 2px solid orangered;
+    box-shadow: 2px 2px 3px 2px lightcoral inset;
+    border-radius: 5px;
+}
+.nav-link
+{
+    color: Red;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 1%;
+}
+.nav-link:hover
+{
+    color: black;
+    
+    transition: 1s;
+}

@@ -1,0 +1,25 @@
+<%-include("partials/header.ejs")%>
+<%-include("partials/navbar.ejs")%>
+   <div class="container mx-auto w-50 mt-5 ">
+    <form method="post">
+    <h2 class="alert alert-primary text-center ">Login</h2>
+   
+
+    <div class="mb-3">
+        <h5 class="form-label">Email:</h5>
+        <input type="email" name="email" class="input" autocomplete="off"  required>
+    </div>
+
+    <div class="mb-3">
+        <h5 class="form-label">Password:</h5>
+        <input type="password" name="password" class="input" autocomplete="off"  required>
+    </div>
+
+   
+
+    <button type="submit" class="btn btn-success">Login</button>
+</form>
+   </div>
+<%-include("partials/footer.ejs")%>
+
+
